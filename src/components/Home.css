@@ -1,0 +1,13 @@
+.home {
+    padding: 20px;
+  }
+  
+.home img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+.home .card {
+    margin-bottom: 20px;
+  }
+  
