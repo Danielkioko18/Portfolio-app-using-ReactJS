@@ -10,9 +10,6 @@ const Home = () => {
           <Col md={6}>
             <h1>Hello, I'm Daniel Kioko</h1>
             
-
-
-
             <Button variant="primary" href="contact">Get in Touch</Button>
           </Col>
           <Col md={6}>
@@ -36,7 +33,6 @@ const Home = () => {
                               <p><strong>Phone:</strong> +254769894714</p>
                               <p><strong>Address:</strong> Nairobi, Kenya</p>
                               <p><strong>Email:</strong> danielkioko1844@gmail.com</p>
-
                             </div>
                           </div>
 
@@ -105,7 +101,7 @@ const Home = () => {
                           deliver innovative and efficient software solutions. Daniel's dedication to continuous learning 
                           and improvement drives his success in the ever-evolving field of software development.
                         </p>
-                        
+
                       </div>
                     </div>
                   </Card.Text>
@@ -156,6 +152,45 @@ const Home = () => {
               </Col>
             </Row>
           </Col>
+        </Row>
+        <Row id='#contactme'>
+          <div className="card">
+            <div className="card-title">
+            </div>
+            <div className="card-body">
+              <div className="row">
+                <div className="col-md-6">
+                  <h4 className='text-primary'>Message Me</h4>
+                  <form>
+                    <div class="form-group mb-3">
+                      <input type="email" class="form-control" id="" placeholder="Your Email" />
+                    </div>
+
+                    <div class="form-group mb-3">
+                      <input type="Text" class="form-control" id="" placeholder="Name" />
+                    </div>
+
+                    <div class="form-group mb-3">
+                      <input type="Subject" class="form-control" id="" placeholder="Subject" />
+                    </div>
+                    
+                    <div class="form-group mb-3">
+                      <textarea class="form-control" id="Your Message" rows="3" placeholder="Your Message"></textarea>
+                    </div>
+                    <div class="form-group">
+                      <button className='btn btn-primary' type="submit">Send</button>
+                    </div>
+                  </form>
+                </div>
+                <div className="col-md-6">
+                  <h4 className='text-primary'>Get In Touch</h4>
+                  <p>Get in touch with Daniel for collaborations and enquiries through these platforms</p>
+                  <p><strong><span className='fa fa-phone'></span></strong><a href="tel:+254769894714">+254769894714</a></p>
+                  <p><strong>Email:</strong><a href="mailto: danielkioko1844@gmail.com"> danielkioko1844@gmail.com</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
         </Row>
       </Container>
     </div>
