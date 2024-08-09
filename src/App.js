@@ -8,7 +8,6 @@ import About from './components/About';
 import Footer from './components/Footer';
 import Home from './components/Home';
 
-
 function App() {
   return (
     <Router>

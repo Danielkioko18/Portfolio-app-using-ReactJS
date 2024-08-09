@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <Navbar bg="primary" variant="dark" expand="lg" style={{position:'fixed', width: '100%'}}>
+    <Navbar bg="primary" variant="dark" expand="lg" style={{position:'fixed', width: '100%', zIndex:'10'}}>
       <Container>
         <Navbar.Brand as={Link} to="/">Daniel Kioko</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -22,3 +22,4 @@ const Header = () => {
 };
 
 export default Header;
+
