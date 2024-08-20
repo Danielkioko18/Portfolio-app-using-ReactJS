@@ -112,7 +112,7 @@ const Home = () => {
             <Row>
               <Col md={4}>
                 <Card>
-                  <Card.Img variant="top" src="path/to/project1-thumbnail.jpg" />
+                  <Card.Img variant="top" src="spms.jpg" />
                   <Card.Body>
                     <Card.Title>Students Projects Management System</Card.Title>
                     <Card.Text>
