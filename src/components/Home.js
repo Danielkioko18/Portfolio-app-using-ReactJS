@@ -96,6 +96,7 @@ const Home = () => {
                           deliver innovative and efficient software solutions. Daniel's dedication to continuous learning 
                           and improvement drives his success in the ever-evolving field of software development.
                         </p>
+                        <p className='text-success'><strong>To view my CV/Resume click</strong> <a href="http://"> Here.</a></p>
 
                       </div>
                     </div>
@@ -113,7 +114,7 @@ const Home = () => {
                 <Card>
                   <Card.Img variant="top" src="path/to/project1-thumbnail.jpg" />
                   <Card.Body>
-                    <Card.Title>Project 1</Card.Title>
+                    <Card.Title>Students Projects Management System</Card.Title>
                     <Card.Text>
                       A brief description of Project 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </Card.Text>
@@ -125,7 +126,7 @@ const Home = () => {
                 <Card>
                   <Card.Img variant="top" src="path/to/project2-thumbnail.jpg" />
                   <Card.Body>
-                    <Card.Title>Project 2</Card.Title>
+                    <Card.Title>Booking System</Card.Title>
                     <Card.Text>
                       A brief description of Project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </Card.Text>
@@ -137,7 +138,79 @@ const Home = () => {
                 <Card>
                   <Card.Img variant="top" src="path/to/project3-thumbnail.jpg" />
                   <Card.Body>
-                    <Card.Title>Project 3</Card.Title>
+                    <Card.Title>Bus Ticketing System </Card.Title>
+                    <Card.Text>
+                      A brief description of Project 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </Card.Text>
+                    <Button variant="primary" href="https://github.com/your-username/project3">View Project</Button>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col md={4}>
+                <Card>
+                  <Card.Img variant="top" src="path/to/project3-thumbnail.jpg" />
+                  <Card.Body>
+                    <Card.Title>Wise Wallet</Card.Title>
+                    <Card.Text>
+                      A brief description of Project 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </Card.Text>
+                    <Button variant="primary" href="https://github.com/your-username/project3">View Project</Button>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col md={4}>
+                <Card>
+                  <Card.Img variant="top" src="path/to/project3-thumbnail.jpg" />
+                  <Card.Body>
+                    <Card.Title>Pharmacy System</Card.Title>
+                    <Card.Text>
+                      A brief description of Project 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </Card.Text>
+                    <Button variant="primary" href="https://github.com/your-username/project3">View Project</Button>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col md={4}>
+                <Card>
+                  <Card.Img variant="top" src="path/to/project3-thumbnail.jpg" />
+                  <Card.Body>
+                    <Card.Title>School System</Card.Title>
+                    <Card.Text>
+                      A brief description of Project 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </Card.Text>
+                    <Button variant="primary" href="https://github.com/your-username/project3">View Project</Button>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col md={4}>
+                <Card>
+                  <Card.Img variant="top" src="path/to/project3-thumbnail.jpg" />
+                  <Card.Body>
+                    <Card.Title>Student System</Card.Title>
+                    <Card.Text>
+                      A brief description of Project 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </Card.Text>
+                    <Button variant="primary" href="https://github.com/your-username/project3">View Project</Button>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col md={4}>
+                <Card>
+                  <Card.Img variant="top" src="path/to/project3-thumbnail.jpg" />
+                  <Card.Body>
+                    <Card.Title>Python GUI Application</Card.Title>
+                    <Card.Text>
+                      A brief description of Project 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </Card.Text>
+                    <Button variant="primary" href="https://github.com/your-username/project3">View Project</Button>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col md={4}>
+                <Card>
+                  <Card.Img variant="top" src="path/to/project3-thumbnail.jpg" />
+                  <Card.Body>
+                    <Card.Title>Simple Python Gui Calculator</Card.Title>
                     <Card.Text>
                       A brief description of Project 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </Card.Text>
