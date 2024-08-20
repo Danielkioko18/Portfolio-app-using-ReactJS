@@ -10,4 +10,54 @@
 .home .card {
     margin-bottom: 20px;
   }
+
+  .animate {
+    background-image: url('/public/1.png'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 90%;
+  }
+  
+  .animate::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay to darken the image */
+    z-index: 1;
+  }
+  
+  .animated-text {
+    position: relative;
+    z-index: 2;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    animation: fadeIn 3s ease-in-out infinite alternate; /* Animation */
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  button {
+    position: relative;
+    z-index: 2;
+    margin-top: 20px;
+  }
   

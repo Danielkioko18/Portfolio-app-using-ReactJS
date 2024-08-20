@@ -6,7 +6,10 @@ const Header = () => {
   return (
     <Navbar bg="primary" variant="dark" expand="lg" style={{position:'fixed', width: '100%', zIndex:'10'}}>
       <Container>
-        <Navbar.Brand as={Link} to="/">Daniel Kioko</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/"> 
+          <img src="1.png" alt='logo' style={{height:'40px', width:'40px', border:'2px', borderRadius:'50px'}}/>
+        </Navbar.Brand>
+        <Navbar.Brand as={Link} to="/"><strong><h4>Daniel Kioko</h4></strong></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

@@ -5,17 +5,12 @@ import './Home.css'; // Import custom CSS if needed
 const Home = () => {
   return (
     <div className="home">
-      <Container>
-        <Row className="my-5" id='#home'>
-          <Col md={6}>
-            <h1>Hello, I'm Daniel Kioko</h1>
-            
-            <Button variant="primary" href="contact">Get in Touch</Button>
-          </Col>
-          <Col md={6}>
-            <img src="1.png" alt="Daniel Kioko" className="img-fluid rounded-circle" />
-          </Col>
+        <Row className="animate my-5" id='#home' style={{height:'500px', backgroundColor:'grey', width:'device-width'}}>
+          <h3 className="animated-text">
+            Hello, I am Daniel Kioko, Web Designer, Web Developer, Frontend Developer, Backend Developer, Software Developer
+          </h3>
         </Row>
+      <Container>
         <Row id='#about'>
           <Col>
             <Row>
@@ -26,7 +21,7 @@ const Home = () => {
                       <div class="col-md-6">
                           <div className="row">
                             <div className="col-md">
-                              <img src="path/to/project1-thumbnail.jpg" style={{height:'97%', width:'97%', border:'2px', borderRadius:'5px'}}/>
+                              <img src="1.png" style={{height:'97%', width:'97%', border:'2px', borderRadius:'5px'}}/>
                             </div>
                             <div className="col-md text-align-left">
                               <p><strong>Name:</strong> DANIEL KIOKO</p>
@@ -38,43 +33,43 @@ const Home = () => {
 
                           <h4>Skills</h4>
                           
-                          <div className="progress mb-4" style={{height: '30px'}}>
+                          <div className="progress mb-3" style={{height: '25px'}}>
                             <div class="progress-bar" role="progressbar" style={{width: '82%'}} aria-valuenow="82" aria-valuemin="0"
                             aria-valuemax="100"><strong>Python  82%</strong></div>
                           </div>
 
-                          <div className="progress mb-4" style={{height: '30px'}}>
+                          <div className="progress mb-3" style={{height: '25px'}}>
                             <div class="progress-bar" role="progressbar" style={{width: '78%'}} aria-valuenow="78" aria-valuemin="0"
                             aria-valuemax="100"><strong>Java 78%</strong></div>
                           </div>
 
-                          <div className="progress mb-4" style={{height: '30px'}}>
+                          <div className="progress mb-3" style={{height: '25px'}}>
                             <div class="progress-bar" role="progressbar" style={{width: '75%'}} aria-valuenow="75" aria-valuemin="0"
                             aria-valuemax="100"><strong>PHP  80%</strong> </div>
                           </div>
 
-                          <div className="progress mb-4" style={{height: '30px'}}>
+                          <div className="progress mb-3" style={{height: '25px'}}>
                             <div class="progress-bar" role="progressbar" style={{width: '70%'}} aria-valuenow="70" aria-valuemin="0"
                             aria-valuemax="100"><strong>Javascript  70%</strong> </div>
                           </div>
 
-                          <div className="progress mb-4" style={{height: '30px'}}>
+                          <div className="progress mb-3" style={{height: '25px'}}>
                             <div class="progress-bar" role="progressbar" style={{width: '89%'}} aria-valuenow="89" aria-valuemin="0"
                             aria-valuemax="100"><strong>Mysql  89%</strong></div>
                           </div>
 
-                          <div className="progress mb-4" style={{height: '30px'}}>
+                          <div className="progress mb-3" style={{height: '25px'}}>
                             <div class="progress-bar" role="progressbar" style={{width: '81%'}} aria-valuenow="81" aria-valuemin="0"
                             aria-valuemax="100"><strong>Postgres SQL   81%</strong></div>
                           </div>
 
-                          <div className="progress mb-4" style={{height: '30px'}}>
+                          <div className="progress mb-3" style={{height: '25px'}}>
                             <div class="progress-bar" role="progressbar" style={{width: '88%'}} aria-valuenow="88" aria-valuemin="0"
                             aria-valuemax="100"><strong>CSS/Bootstrap  88%</strong> </div>
                           </div>
                           
 
-                          <div className="progress mb-4" style={{height: '30px'}}>
+                          <div className="progress mb-3" style={{height: '25px'}}>
                             <div class="progress-bar" role="progressbar" style={{width: '80%'}} aria-valuenow="80" aria-valuemin="0"
                             aria-valuemax="100"><strong>Github  80%</strong> </div>
                           </div>
