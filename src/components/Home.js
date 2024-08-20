@@ -11,7 +11,7 @@ const Home = () => {
           </h3>
         </Row>
       <Container>
-        <Row id='#about'>
+        <Row id='about'>
           <Col>
             <Row>
               <Card>                  
@@ -78,22 +78,25 @@ const Home = () => {
                       <div class="col-md-6">
                         <Card.Title className='text-danger'><strong>ABOUT ME</strong></Card.Title>
                         <p>
-                          Daniel Kioko is a passionate and fullstack developer with proficiency in different programming 
-                          languages and technologies. With expertise and knowledge in Python, Java, PHP, and JavaScript, 
-                          Daniel excels in frontend development, backend development, and database design for software and 
-                          web applications.
+                          Daniel Kioko is a passionate full-stack developer who is skilled in various programming languages 
+                          and technologies. He quickly adapts to new tools and environments, making him a fast learner. 
+                          With expertise in Python, Java, PHP, and JavaScript, Daniel excels in both frontend and backend development, 
+                          as well as designing databases for software and web applications.
                         </p>
 
                         <p>
-                          Proficient in web development using languages such as PHP, HTML, and JavaScript, and frameworks 
-                          such as Django and Flask for Python, and Node.js for JavaScript. Daniel Kioko brings a versatile 
-                          skill set to the table, allowing him to create robust and scalable applications. His experience spans both the server-side and client-side, ensuring comprehensive solutions for diverse project needs.
+                          Daniel is proficient in web development, using languages like PHP, HTML, and JavaScript, 
+                          along with frameworks such as Django and Flask for Python, and Node.js for JavaScript. 
+                          His wide range of skills allows him to build strong and scalable applications. 
+                          His experience spans both the server-side and client-side, enabling him to provide 
+                          complete solutions for diverse project needs.
                         </p>
 
                         <p>
-                          Daniel Kioko is also experienced in application development in Java, JavaScript, and Python. His 
-                          commitment to staying updated with the latest industry trends and technologies enables him to 
-                          deliver innovative and efficient software solutions. Daniel's dedication to continuous learning 
+                          In addition to web development skills, Daniel is also experienced in creating 
+                          applications using Java, JavaScript, and Python. His ability to learn quickly and 
+                          stay updated with the latest industry trends and technologies helps him deliver 
+                          innovative and efficient software solutions. Daniel's commitment to continuous learning 
                           and improvement drives his success in the ever-evolving field of software development.
                         </p>
                         <p className='text-success'><strong>To view my CV/Resume click</strong> <a href="http://"> Here.</a></p>
@@ -106,7 +109,8 @@ const Home = () => {
             </Row>
           </Col>
         </Row>
-        <Row id='#projects' className="my-5">
+
+        <Row id='projects' className="my-5">
           <Col>
             <h2>Projects</h2>
             <Row>
@@ -116,7 +120,8 @@ const Home = () => {
                   <Card.Body>
                     <Card.Title>Students Projects Management System</Card.Title>
                     <Card.Text>
-                      A brief description of Project 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      A management system for manageing students final year projects in a specific department. 
+                      developed using django framework. 
                     </Card.Text>
                     <Button variant="primary" href="https://github.com/your-username/project1">View Project</Button>
                   </Card.Body>
@@ -124,11 +129,11 @@ const Home = () => {
               </Col>
               <Col md={4}>
                 <Card>
-                  <Card.Img variant="top" src="path/to/project2-thumbnail.jpg" />
+                  <Card.Img variant="top" src="wise.jpg" />
                   <Card.Body>
                     <Card.Title>Booking System</Card.Title>
                     <Card.Text>
-                      A brief description of Project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      A ticket reservation system for o nline bus booking in PHP.
                     </Card.Text>
                     <Button variant="primary" href="https://github.com/your-username/project2">View Project</Button>
                   </Card.Body>
@@ -136,11 +141,11 @@ const Home = () => {
               </Col>
               <Col md={4}>
                 <Card>
-                  <Card.Img variant="top" src="path/to/project3-thumbnail.jpg" />
+                  <Card.Img variant="top" src="bts.jpg" />
                   <Card.Body>
                     <Card.Title>Bus Ticketing System </Card.Title>
                     <Card.Text>
-                      A brief description of Project 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      A system for proccessing of tickets at bus stations offices.
                     </Card.Text>
                     <Button variant="primary" href="https://github.com/your-username/project3">View Project</Button>
                   </Card.Body>
@@ -148,11 +153,12 @@ const Home = () => {
               </Col>
               <Col md={4}>
                 <Card>
-                  <Card.Img variant="top" src="path/to/project3-thumbnail.jpg" />
+                  <Card.Img variant="top" src="wise.jpg" />
                   <Card.Body>
                     <Card.Title>Wise Wallet</Card.Title>
                     <Card.Text>
-                      A brief description of Project 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Flask framework application that enables one to track there monthly expenses 
+                      and alert one on excesses through in app notifications.
                     </Card.Text>
                     <Button variant="primary" href="https://github.com/your-username/project3">View Project</Button>
                   </Card.Body>
@@ -160,11 +166,11 @@ const Home = () => {
               </Col>
               <Col md={4}>
                 <Card>
-                  <Card.Img variant="top" src="path/to/project3-thumbnail.jpg" />
+                  <Card.Img variant="top" src="1.png" />
                   <Card.Body>
                     <Card.Title>Pharmacy System</Card.Title>
                     <Card.Text>
-                      A brief description of Project 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      A parmacy management system to manage the activiteies in a pharmacy including storing of data and a POS build using PHP.
                     </Card.Text>
                     <Button variant="primary" href="https://github.com/your-username/project3">View Project</Button>
                   </Card.Body>
@@ -172,7 +178,7 @@ const Home = () => {
               </Col>
               <Col md={4}>
                 <Card>
-                  <Card.Img variant="top" src="path/to/project3-thumbnail.jpg" />
+                  <Card.Img variant="top" src="wise.jpg" />
                   <Card.Body>
                     <Card.Title>School System</Card.Title>
                     <Card.Text>
@@ -184,11 +190,11 @@ const Home = () => {
               </Col>
               <Col md={4}>
                 <Card>
-                  <Card.Img variant="top" src="path/to/project3-thumbnail.jpg" />
+                  <Card.Img variant="top" src="wise.jpg" />
                   <Card.Body>
                     <Card.Title>Student System</Card.Title>
                     <Card.Text>
-                      A brief description of Project 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Student system developed using Java for management of students iformation.
                     </Card.Text>
                     <Button variant="primary" href="https://github.com/your-username/project3">View Project</Button>
                   </Card.Body>
@@ -196,11 +202,11 @@ const Home = () => {
               </Col>
               <Col md={4}>
                 <Card>
-                  <Card.Img variant="top" src="path/to/project3-thumbnail.jpg" />
+                  <Card.Img variant="top" src="app.jpg" />
                   <Card.Body>
                     <Card.Title>Python GUI Application</Card.Title>
                     <Card.Text>
-                      A brief description of Project 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      A simple Python gui application with database that hase CRUD application.
                     </Card.Text>
                     <Button variant="primary" href="https://github.com/your-username/project3">View Project</Button>
                   </Card.Body>
@@ -208,11 +214,11 @@ const Home = () => {
               </Col>
               <Col md={4}>
                 <Card>
-                  <Card.Img variant="top" src="path/to/project3-thumbnail.jpg" />
+                  <Card.Img variant="top" src="calc.jpg" />
                   <Card.Body>
                     <Card.Title>Simple Python Gui Calculator</Card.Title>
                     <Card.Text>
-                      A brief description of Project 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      A simple calculator python.
                     </Card.Text>
                     <Button variant="primary" href="https://github.com/your-username/project3">View Project</Button>
                   </Card.Body>
@@ -221,7 +227,7 @@ const Home = () => {
             </Row>
           </Col>
         </Row>
-        <Row id='#contactme'>
+        <Row id='contactme'>
           <div className="card">
             <div className="card-title">
             </div>
