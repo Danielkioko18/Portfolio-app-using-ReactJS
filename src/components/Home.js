@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Button, Card } from 'react-bootstrap';
+//import { FaPhone, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import './Home.css'; // Import custom CSS if needed
 
 const Home = () => {
@@ -120,8 +121,8 @@ const Home = () => {
                   <Card.Body>
                     <Card.Title>Students Projects Management System</Card.Title>
                     <Card.Text>
-                      A management system for manageing students final year projects in a specific department. 
-                      developed using django framework. 
+                      System for managing students final year projects. 
+                      Developed using Django framework. 
                     </Card.Text>
                     <Button variant="primary" href="https://github.com/your-username/project1">View Project</Button>
                   </Card.Body>
@@ -252,15 +253,45 @@ const Home = () => {
                       <textarea class="form-control" id="Your Message" rows="3" placeholder="Your Message"></textarea>
                     </div>
                     <div class="form-group">
-                      <button className='btn btn-primary' type="submit">Send</button>
+                      <button className='btn btn-primary' type="submit">Send Message</button>
                     </div>
                   </form>
                 </div>
                 <div className="col-md-6">
-                  <h4 className='text-primary'>Get In Touch</h4>
-                  <p>Get in touch with Daniel for collaborations and enquiries through these platforms</p>
-                  <p><strong><span className='fa fa-phone'></span></strong><a href="tel:+254769894714">+254769894714</a></p>
-                  <p><strong>Email:</strong><a href="mailto: danielkioko1844@gmail.com"> danielkioko1844@gmail.com</a></p>
+                  <h4 className='text-primary'><u>Get In Touch</u></h4>
+                  <div className="row">
+
+                    <div className="col">
+                      <a href="tel:+254769894714" style={{ color: 'inherit' }}>
+                        <i className="fas fa-phone"></i>
+                      </a>
+                    </div>
+                    <div className="col">
+                      <a href="mail:danielkioko1844@gmail.com" style={{ color: 'inherit' }}>
+                        <i className="fas fa-envelope"></i>
+                      </a>
+                    </div>
+                    <div className="col">
+                      <a href="https://wa.me/your-number" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit' }}>
+                        <i className="fab fa-whatsapp"></i>
+                      </a>
+                    </div>
+                    <div className="col">
+                      < a href="https://www.instagram.com/danielkioko1844" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit' }}>
+                        <i className="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                    <div className="col">
+                      <a href="https://www.facebook.com/danielkioko1844" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit' }}>
+                        <i className="fab fa-facebook"></i>
+                      </a>
+                    </div>
+                    <div className="col">
+                      <a href="https://github.com/Danielkioko18" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit' }}>
+                        <i className="fab fa-github"> hello</i>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
