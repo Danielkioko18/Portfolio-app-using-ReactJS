@@ -8,7 +8,7 @@ const Header = () => {
     <Navbar bg="primary" variant="dark" expand="lg" style={{position:'fixed', width: '100%', zIndex:'10'}}>
       <Container>
         <Navbar.Brand as={Links} to="#home"> 
-          <img src="1.png" alt='logo' style={{height:'40px', width:'40px', border:'2px', borderRadius:'50px'}}/>
+          <img src="profile.jpg" alt='logo' style={{height:'40px', width:'40px', border:'2px', borderRadius:'50px'}}/>
         </Navbar.Brand>
         <Navbar.Brand as={Links} to="#home"><strong><h4>Daniel Kioko</h4></strong></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

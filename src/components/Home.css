@@ -12,7 +12,7 @@
   }
 
   .animate {
-    background-image: url('/public/1.png'); /* Replace with your background image path */
+    background-image: url('/public/Background.jpg'); /* Replace with your background image path */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -21,7 +21,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    opacity: 90%;
+    opacity: 97%;
   }
   
   .animate::before {
@@ -41,7 +41,7 @@
     color: white;
     font-size: 2rem;
     text-align: center;
-    animation: fadeIn 3s ease-in-out infinite alternate; /* Animation */
+    animation: fadeIn 5s ease-in-out infinite alternate; /* Animation */
   }
   
   @keyframes fadeIn {

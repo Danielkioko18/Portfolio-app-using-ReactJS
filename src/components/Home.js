@@ -1,13 +1,13 @@
 import React from 'react';
-import { Container, Row, Col, Button, Card,Section } from 'react-bootstrap';
+import { Container, Row, Col, Button, Card } from 'react-bootstrap';
 import './Home.css'; // Import custom CSS if needed
 
 const Home = () => {
   return (
     <div className="home">
-        <Row className="animate my-5" id='#home' style={{height:'500px', backgroundColor:'grey', width:'device-width'}}>
+        <Row className="animate my-3" id='#home' style={{height:'500px', backgroundColor:'grey', width:'device-width'}}>
           <h3 className="animated-text">
-            Hello, I am Daniel Kioko, Web Designer, Web Developer, Frontend Developer, Backend Developer, Software Developer
+            Hello, I am Daniel Kioko, A <b className='text-danger'>Web Designer, </b> <b className='text-warning'>Web Developer, </b> <b className='text-primary'>Frontend Developer & Backend Developer,</b> <b className='text-success'>Software Developer</b> & IT Personel
           </h3>
         </Row>
       <Container>
@@ -21,7 +21,7 @@ const Home = () => {
                       <div class="col-md-6">
                           <div className="row">
                             <div className="col-md">
-                              <img src="1.png" style={{height:'97%', width:'97%', border:'2px', borderRadius:'5px'}}/>
+                              <img src="profile.jpg" alt='Kioko' style={{height:'95%', width:'95%', border:'2px', borderRadius:'5px'}}/>
                             </div>
                             <div className="col-md text-align-left">
                               <p><strong>Name:</strong> DANIEL KIOKO</p>
@@ -99,7 +99,7 @@ const Home = () => {
                           innovative and efficient software solutions. Daniel's commitment to continuous learning 
                           and improvement drives his success in the ever-evolving field of software development.
                         </p>
-                        <p className='text-success'><strong>To view my CV/Resume click</strong> <a href="http://"> Here.</a></p>
+                        <p className='text-success'><strong>To view my CV/Resume click</strong> <a href="Daniel Kioko CV.pdf"> Here.</a></p>
 
                       </div>
                     </div>
@@ -129,7 +129,7 @@ const Home = () => {
               </Col>
               <Col md={4}>
                 <Card>
-                  <Card.Img variant="top" src="wise.jpg" />
+                  <Card.Img variant="top" src="booking.jpg" />
                   <Card.Body>
                     <Card.Title>Booking System</Card.Title>
                     <Card.Text>
