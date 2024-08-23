@@ -7,10 +7,17 @@ import Services from './Services';
 const Home = () => {
   return (
     <div className="home">
-        <Row className="animate my-3" id='#home' style={{height:'500px', backgroundColor:'grey', width:'device-width'}}>
-          <h3 className="animated-text">
-            Hello, I am Daniel Kioko, A <b className='text-danger'>Web Designer, </b> <b className='text-warning'>Web Developer, </b> <b className='text-primary'>Frontend Developer & Backend Developer,</b> <b className='text-success'>Software Developer</b> & IT Technician
-          </h3>
+        <Row className="animate my-3" id='home' style={{height:'500px', backgroundColor:'grey', width:'device-width'}}>
+          <h3 className='animated-text text-light'><strong>Hello, I am Daniel Kioko,</strong></h3>
+          <h4 className="animated-text">
+             A <b className='text-danger'>Web Designer, </b> <b className='text-warning'>Web Developer, </b> 
+          </h4>
+          <h4 className="animated-text">
+             <b className='text-primary'>Frontend Developer & Backend Developer,</b> 
+          </h4>
+          <h4 className="animated-text">
+             <b className='text-success'>Software Developer</b> & IT Technician
+          </h4>
         </Row>
       <Container>
         <Row id='about'>
@@ -78,7 +85,7 @@ const Home = () => {
                           
                       </div>
                       <div class="col-md-6">
-                        <Card.Title className='text-danger'><strong>ABOUT ME</strong></Card.Title>
+                        <Card.Title className='text-primary'><strong><u>ABOUT ME</u></strong></Card.Title>
                         <p>
                           Daniel Kioko is a passionate full-stack developer who is skilled in various programming languages 
                           and technologies. He quickly adapts to new tools and environments, making him a fast learner. 
@@ -116,7 +123,8 @@ const Home = () => {
 
         <Row id='projects' className="my-5">
           <Col>
-            <h2>Projects</h2>
+            <h2 className='text-primary'><strong><u>Projects</u></strong></h2>
+            <h5>Discover among others, some of my Key Projects and skills i have done.</h5>
             <Row>
               <Col md={4}>
                 <Card>
