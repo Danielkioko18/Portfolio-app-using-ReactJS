@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Button, Card } from 'react-bootstrap';
 //import { FaPhone, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import './Home.css'; // Import custom CSS if needed
+import Services from './Services';
 
 const Home = () => {
   return (
@@ -110,6 +111,8 @@ const Home = () => {
             </Row>
           </Col>
         </Row>
+
+        <Services />
 
         <Row id='projects' className="my-5">
           <Col>
