@@ -8,7 +8,7 @@ const Home = () => {
     <div className="home">
         <Row className="animate my-3" id='#home' style={{height:'500px', backgroundColor:'grey', width:'device-width'}}>
           <h3 className="animated-text">
-            Hello, I am Daniel Kioko, A <b className='text-danger'>Web Designer, </b> <b className='text-warning'>Web Developer, </b> <b className='text-primary'>Frontend Developer & Backend Developer,</b> <b className='text-success'>Software Developer</b> & IT Personel
+            Hello, I am Daniel Kioko, A <b className='text-danger'>Web Designer, </b> <b className='text-warning'>Web Developer, </b> <b className='text-primary'>Frontend Developer & Backend Developer,</b> <b className='text-success'>Software Developer</b> & IT Technician
           </h3>
         </Row>
       <Container>

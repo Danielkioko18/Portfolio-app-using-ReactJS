@@ -8,18 +8,17 @@ const Footer = () => {
       <Container>
         <Row>
           <Col md={4}>
-            <h5>About Me</h5>
-            <p>Short bio or description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h5><u>About Me</u> </h5>
+            <p>A Fullstack Developer, Web Designer & Developer, with skills and experience in different programming languages and IT Technician</p>
           </Col>
           <Col md={4}>
-            <h5>Contact</h5>
-            <p>Email: example@example.com</p>
-            <p>Phone: +123 456 7890</p>
+            <h5><u>Contact</u> </h5>
+            <p>Email: danielkioko1844@gmail.com</p>
+            <p>Phone: +254769894714</p>
           </Col>
           <Col md={4}>
-            <h5>Follow Me</h5>
+            <h5><u>Follow Me</u> </h5>
             <ul className="list-unstyled">
-              <li><a href="#" className="text-white">LinkedIn</a></li>
               <li><a href="#" className="text-white">GitHub</a></li>
               <li><a href="#" className="text-white">Twitter</a></li>
             </ul>
@@ -27,7 +26,7 @@ const Footer = () => {
         </Row>
         <Row>
           <Col className="text-center">
-            <p className="mb-0">&copy; {new Date().getFullYear()} Your Name. All rights reserved.</p>
+            <p className="mb-0">&copy; {new Date().getFullYear()} Daniel Kioko. All rights reserved.</p>
           </Col>
         </Row>
       </Container>
