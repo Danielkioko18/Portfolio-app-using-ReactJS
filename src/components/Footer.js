@@ -19,14 +19,14 @@ const Footer = () => {
           <Col md={4}>
             <h5><u>Follow Me</u> </h5>
             <ul className="list-unstyled">
-              <li><a href="#" className="text-white">GitHub</a></li>
-              <li><a href="#" className="text-white">Twitter</a></li>
+              <li><a href="https://github.com/Danielkioko18" className="text-white">GitHub</a></li>
+              <li><a href="https://github.com/Danielkioko18" className="text-white">Twitter</a></li>
             </ul>
           </Col>
         </Row>
         <Row>
           <Col className="text-center">
-            <p className="mb-0">&copy; {new Date().getFullYear()} Daniel Kioko. All rights reserved.</p>
+            <p className="mb-0">&copy; {new Date().getFullYear()} All rights reserved.</p>
           </Col>
         </Row>
       </Container>

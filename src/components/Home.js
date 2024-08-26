@@ -16,7 +16,7 @@ const Home = () => {
              <b className='text-primary'>Frontend Developer & Backend Developer,</b> 
           </h4>
           <h4 className="animated-text">
-             <b className='text-success'>Software Developer</b> & IT Technician
+             <b className='text-warning'>Software Developer</b> & IT Technician
           </h4>
         </Row>
       <Container>
@@ -40,7 +40,7 @@ const Home = () => {
                             </div>
                           </div>
 
-                          <h4>Skills</h4>
+                          <h4 className='text-primary'><strong><u>Skills</u></strong></h4>
                           
                           <div className="progress mb-3" style={{height: '25px'}}>
                             <div class="progress-bar" role="progressbar" style={{width: '82%'}} aria-valuenow="82" aria-valuemin="0"
@@ -64,12 +64,7 @@ const Home = () => {
 
                           <div className="progress mb-3" style={{height: '25px'}}>
                             <div class="progress-bar" role="progressbar" style={{width: '89%'}} aria-valuenow="89" aria-valuemin="0"
-                            aria-valuemax="100"><strong>Mysql  89%</strong></div>
-                          </div>
-
-                          <div className="progress mb-3" style={{height: '25px'}}>
-                            <div class="progress-bar" role="progressbar" style={{width: '81%'}} aria-valuenow="81" aria-valuemin="0"
-                            aria-valuemax="100"><strong>Postgres SQL   81%</strong></div>
+                            aria-valuemax="100"><strong>Mysql/Postgres SQL 89%</strong></div>
                           </div>
 
                           <div className="progress mb-3" style={{height: '25px'}}>
@@ -108,7 +103,7 @@ const Home = () => {
                           innovative and efficient software solutions. Daniel's commitment to continuous learning 
                           and improvement drives his success in the ever-evolving field of software development.
                         </p>
-                        <p className='text-success'><strong>To view my CV/Resume click</strong> <a href="Daniel Kioko CV.pdf"> Here.</a></p>
+                        <p className='text-success'><strong>To view my CV/Resume click</strong> <a href="Daniel Kioko CV.pdf"> here</a></p>
 
                       </div>
                     </div>
@@ -246,7 +241,7 @@ const Home = () => {
             <div className="card-body">
               <div className="row">
                 <div className="col-md-6">
-                  <h4 className='text-primary'>Message Me</h4>
+                  <h4 className='text-primary'><u>Message Me</u></h4>
                   <form>
                     <div class="form-group mb-3">
                       <input type="email" class="form-control" id="" placeholder="Your Email" />
