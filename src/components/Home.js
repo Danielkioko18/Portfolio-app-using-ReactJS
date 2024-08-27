@@ -189,7 +189,7 @@ const Home = () => {
                   <Card.Body>
                     <Card.Title>School System</Card.Title>
                     <Card.Text>
-                      A brief description of Project 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      JavaSwing project school management system.
                     </Card.Text>
                     <Button variant="primary" href="https://github.com/your-username/project3">View Project</Button>
                   </Card.Body>
