@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Button, Card } from 'react-bootstrap';
-//import { FaPhone, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaPhone, FaLinkedin, FaEnvelope,FaFacebook,FaInstagram, FaWhatsapp,FaGithub } from "react-icons/fa";
 import './Home.css'; // Import custom CSS if needed
 import Services from './Services';
 
@@ -269,32 +269,32 @@ const Home = () => {
 
                     <div className="col">
                       <a href="tel:+254769894714" style={{ color: 'inherit' }}>
-                        <i className="fas fa-phone"></i>
+                        <FaPhone />
                       </a>
                     </div>
-                    <div className="col">
+                    <div className="col text-danger">
                       <a href="mail:danielkioko1844@gmail.com" style={{ color: 'inherit' }}>
-                        <i className="fas fa-envelope"></i>
+                        <FaEnvelope />
                       </a>
                     </div>
                     <div className="col">
-                      <a href="https://wa.me/your-number" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit' }}>
-                        <i className="fab fa-whatsapp"></i>
+                      <a href="https://wa.me/+254769894714" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit' }}>
+                        <FaWhatsapp />
                       </a>
                     </div>
                     <div className="col">
                       < a href="https://www.instagram.com/danielkioko1844" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit' }}>
-                        <i className="fab fa-instagram"></i>
+                        <FaInstagram />
                       </a>
                     </div>
                     <div className="col">
                       <a href="https://www.facebook.com/danielkioko1844" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit' }}>
-                        <i className="fab fa-facebook"></i>
+                        <FaFacebook />
                       </a>
                     </div>
                     <div className="col">
                       <a href="https://github.com/Danielkioko18" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit' }}>
-                        <i className="fab fa-github"> hello</i>
+                        <FaGithub />
                       </a>
                     </div>
                   </div>
