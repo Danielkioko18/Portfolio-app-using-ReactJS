@@ -1,12 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import { FaFacebook,FaInstagram, FaLinkedin, FaWhatsapp,FaGithub } from "react-icons/fa";
 import AOS from 'aos'; // Import AOS
-import 'aos/dist/aos.css';
+import 'aos/dist/aos.css';// Import AOS styles
 import './Home.css'; // Import custom CSS if needed
 import Services from './Services';
 
 const Home = () => {
+  // Initialize AOS when the component is mounted
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Set the duration of the animation
+      once: true, // Animation runs only once (on first scroll)
+    });
+  }, []);
+
   return (
     <div className="home">
         <Row className="animate my-2" id='home' style={{ height: '500px', backgroundColor: 'grey', width: '100%', marginTop:'1200px' }}>
