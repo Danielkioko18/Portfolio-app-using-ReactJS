@@ -131,117 +131,136 @@ const Home = () => {
         
         <Services />
 
-        {/* My Projects section*/}                        
+        {/* My Projects section*/}                      
         <Row id='projects' className="my-5">
           <Col>
             <h2 className='text-primary'><strong><u>Projects</u></strong></h2>
-            <h5>Discover among others, some of my Key Projects and skills i have done.</h5>
+            <h5>Discover among others, some of my Key Projects and skills I have done.</h5>
             <Row>
               <Col md={4}>
-                <Card>
-                  <Card.Img variant="top" src="proj.jpeg" />
-                  <Card.Body>
-                    <Card.Title>Students Projects Management System</Card.Title>
-                    <Card.Text>
-                      System for managing students final year projects. 
-                      Developed using Django framework. 
-                    </Card.Text>
-                  </Card.Body>
+                <Card className="project-card">
+                  <div className="image-wrapper">
+                    <Card.Img variant="top" src="proj.jpeg" className="project-img" />
+                    <div className="overlay">
+                      <Card.Title className="text-white">Students Projects Management System</Card.Title>
+                      <Card.Text className="text-white">
+                        System for managing students' final year projects. 
+                        Developed using Django framework.
+                      </Card.Text>
+                    </div>
+                  </div>
                 </Card>
               </Col>
               <Col md={4}>
-                <Card>
-                  <Card.Img variant="top" src="bus.jpg" />
-                  <Card.Body>
-                    <Card.Title>Booking System</Card.Title>
-                    <Card.Text>
-                      A ticket reservation system for o nline bus booking in PHP.
-                    </Card.Text>
-                  </Card.Body>
+                <Card className="project-card">
+                  <div className="image-wrapper">
+                    <Card.Img variant="top" src="bus.jpg" className="project-img" />
+                    <div className="overlay">
+                      <Card.Title className="text-white">Booking System</Card.Title>
+                      <Card.Text className="text-white">
+                        A ticket reservation system for online bus booking in PHP.
+                      </Card.Text>
+                    </div>
+                  </div>
                 </Card>
               </Col>
               <Col md={4}>
-                <Card>
-                  <Card.Img variant="top" src="ticket.jpg" />
-                  <Card.Body>
-                    <Card.Title>Bus Ticketing System </Card.Title>
-                    <Card.Text>
-                      A system for proccessing of tickets at bus stations offices.
-                    </Card.Text>
-                  </Card.Body>
+                <Card className="project-card">
+                  <div className="image-wrapper">
+                    <Card.Img variant="top" src="ticket.jpg" className="project-img" />
+                    <div className="overlay">
+                      <Card.Title className="text-white">Bus Ticketing System</Card.Title>
+                      <Card.Text className="text-white">
+                        A system for processing tickets at bus station offices.
+                      </Card.Text>
+                    </div>
+                  </div>
                 </Card>
               </Col>
               <Col md={4}>
-                <Card>
-                  <Card.Img variant="top" src="wallet.jpg" />
-                  <Card.Body>
-                    <Card.Title>Wise Wallet</Card.Title>
-                    <Card.Text>
-                      Flask framework application that enables one to track there monthly expenses 
-                      and alert one on excesses through in app notifications.
-                    </Card.Text>
-                  </Card.Body>
+                <Card className="project-card">
+                  <div className="image-wrapper">
+                    <Card.Img variant="top" src="wallet.jpg" className="project-img" />
+                    <div className="overlay">
+                      <Card.Title className="text-white">Wise Wallet</Card.Title>
+                      <Card.Text className="text-white">
+                        Flask framework application that enables one to track their monthly expenses 
+                        and alert one on excesses through in-app notifications.
+                      </Card.Text>
+                    </div>
+                  </div>
                 </Card>
               </Col>
               <Col md={4}>
-                <Card>
-                  <Card.Img variant="top" src="pharm.png" />
-                  <Card.Body>
-                    <Card.Title>Pharmacy System</Card.Title>
-                    <Card.Text>
-                      A parmacy management system to manage the activiteies in a pharmacy including storing 
-                      of data and a POS build using PHP.
-                    </Card.Text>
-                  </Card.Body>
+                <Card className="project-card">
+                  <div className="image-wrapper">
+                    <Card.Img variant="top" src="pharm.png" className="project-img" />
+                    <div className="overlay">
+                      <Card.Title className="text-white">Pharmacy System</Card.Title>
+                      <Card.Text className="text-white">
+                        A pharmacy management system to manage activities in a pharmacy including storing 
+                        of data and a POS built using PHP.
+                      </Card.Text>
+                    </div>
+                  </div>
                 </Card>
               </Col>
               <Col md={4}>
-                <Card>
-                  <Card.Img variant="top" src="school.jpg" />
-                  <Card.Body>
-                    <Card.Title>School System</Card.Title>
-                    <Card.Text>
-                      JavaSwing project school management system.
-                    </Card.Text>
-                  </Card.Body>
+                <Card className="project-card">
+                  <div className="image-wrapper">
+                    <Card.Img variant="top" src="school.jpg" className="project-img" />
+                    <div className="overlay">
+                      <Card.Title className="text-white">School System</Card.Title>
+                      <Card.Text className="text-white">
+                        Java Swing project school management system.
+                      </Card.Text>
+                    </div>
+                  </div>
                 </Card>
               </Col>
               <Col md={4}>
-                <Card>
-                  <Card.Img variant="top" src="students.jpg" />
-                  <Card.Body>
-                    <Card.Title>Student System</Card.Title>
-                    <Card.Text>
-                      Student system developed using Java for management of students iformation.
-                    </Card.Text>
-                  </Card.Body>
+                <Card className="project-card">
+                  <div className="image-wrapper">
+                    <Card.Img variant="top" src="students.jpg" className="project-img" />
+                    <div className="overlay">
+                      <Card.Title className="text-white">Student System</Card.Title>
+                      <Card.Text className="text-white">
+                        Student system developed using Java for management of student information.
+                      </Card.Text>
+                    </div>
+                  </div>
                 </Card>
               </Col>
               <Col md={4}>
-                <Card>
-                  <Card.Img variant="top" src="python app.jpg" />
-                  <Card.Body>
-                    <Card.Title>Python GUI Application</Card.Title>
-                    <Card.Text>
-                      A simple Python gui application with database that hase CRUD application.
-                    </Card.Text>
-                  </Card.Body>
+                <Card className="project-card">
+                  <div className="image-wrapper">
+                    <Card.Img variant="top" src="python app.jpg" className="project-img" />
+                    <div className="overlay">
+                      <Card.Title className="text-white">Python GUI Application</Card.Title>
+                      <Card.Text className="text-white">
+                        A simple Python GUI application with database that has CRUD functionalities.
+                      </Card.Text>
+                    </div>
+                  </div>
                 </Card>
               </Col>
               <Col md={4}>
-                <Card>
-                  <Card.Img variant="top" src="schoolwebs.jpg" />
-                  <Card.Body>
-                    <Card.Title>School Website</Card.Title>
-                    <Card.Text>
-                      An highschool website.
-                    </Card.Text>
-                  </Card.Body>
+                <Card className="project-card">
+                  <div className="image-wrapper">
+                    <Card.Img variant="top" src="schoolwebs.jpg" className="project-img" />
+                    <div className="overlay">
+                      <Card.Title className="text-white">School Website</Card.Title>
+                      <Card.Text className="text-white">
+                        A high school website.
+                      </Card.Text>
+                    </div>
+                  </div>
                 </Card>
               </Col>
             </Row>
           </Col>
         </Row>
+
 
         {/* Contact me section */}
         <Row id='contactme'>
