@@ -144,9 +144,16 @@ const Home = () => {
                     <div className="overlay">
                       <Card.Title className="text-white">Students Projects Management System</Card.Title>
                       <Card.Text className="text-white">
-                        System for managing students' final year projects. 
-                        Developed using Django framework.
+                        Manage and track Your students final year projects from one point online
                       </Card.Text>
+                      <a 
+                        href="https://github.com/yourusername/students-project-management" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="btn btn-warning mt-2"
+                      >
+                        View Project
+                      </a>
                     </div>
                   </div>
                 </Card>
@@ -156,10 +163,18 @@ const Home = () => {
                   <div className="image-wrapper">
                     <Card.Img variant="top" src="bus.jpg" className="project-img" />
                     <div className="overlay">
-                      <Card.Title className="text-white">Booking System</Card.Title>
+                      <Card.Title className="text-white">Bus Booking System</Card.Title>
                       <Card.Text className="text-white">
-                        A ticket reservation system for online bus booking in PHP.
+                        Book and Reserve tickets for passengers online 
                       </Card.Text>
+                      <a 
+                        href="https://github.com/yourusername/students-project-management" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="btn btn-warning mt-2"
+                      >
+                        View Project
+                      </a>
                     </div>
                   </div>
                 </Card>
@@ -171,8 +186,16 @@ const Home = () => {
                     <div className="overlay">
                       <Card.Title className="text-white">Bus Ticketing System</Card.Title>
                       <Card.Text className="text-white">
-                        A system for processing tickets at bus station offices.
+                        Generate receipts using computerized ticketing system.
                       </Card.Text>
+                      <a 
+                        href="https://github.com/yourusername/students-project-management" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="btn btn-warning mt-2"
+                      >
+                        View Project
+                      </a>
                     </div>
                   </div>
                 </Card>
@@ -184,9 +207,16 @@ const Home = () => {
                     <div className="overlay">
                       <Card.Title className="text-white">Wise Wallet</Card.Title>
                       <Card.Text className="text-white">
-                        Flask framework application that enables one to track their monthly expenses 
-                        and alert one on excesses through in-app notifications.
+                        Track your financial budgets and spending  to help save on money.
                       </Card.Text>
+                      <a 
+                        href="https://github.com/yourusername/students-project-management" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="btn btn-warning mt-2"
+                      >
+                        View Project
+                      </a>
                     </div>
                   </div>
                 </Card>
@@ -198,9 +228,16 @@ const Home = () => {
                     <div className="overlay">
                       <Card.Title className="text-white">Pharmacy System</Card.Title>
                       <Card.Text className="text-white">
-                        A pharmacy management system to manage activities in a pharmacy including storing 
-                        of data and a POS built using PHP.
+                        Manage your pharmacy's activities such as stock, invoices and supply
                       </Card.Text>
+                      <a 
+                        href="https://github.com/yourusername/students-project-management" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="btn btn-warning mt-2"
+                      >
+                        View Project
+                      </a>
                     </div>
                   </div>
                 </Card>
@@ -212,8 +249,16 @@ const Home = () => {
                     <div className="overlay">
                       <Card.Title className="text-white">School System</Card.Title>
                       <Card.Text className="text-white">
-                        Java Swing project school management system.
+                       Manage school work and records easily.
                       </Card.Text>
+                      <a 
+                        href="https://github.com/yourusername/students-project-management" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="btn btn-warning mt-2"
+                      >
+                        View Project
+                      </a>
                     </div>
                   </div>
                 </Card>
@@ -225,8 +270,16 @@ const Home = () => {
                     <div className="overlay">
                       <Card.Title className="text-white">Student System</Card.Title>
                       <Card.Text className="text-white">
-                        Student system developed using Java for management of student information.
+                        Manage students information records and exam records.
                       </Card.Text>
+                      <a 
+                        href="https://github.com/yourusername/students-project-management" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="btn btn-warning mt-2"
+                      >
+                        View Project
+                      </a>
                     </div>
                   </div>
                 </Card>
@@ -238,8 +291,16 @@ const Home = () => {
                     <div className="overlay">
                       <Card.Title className="text-white">Python GUI Application</Card.Title>
                       <Card.Text className="text-white">
-                        A simple Python GUI application with database that has CRUD functionalities.
+                        Simple Python GUI App
                       </Card.Text>
+                      <a 
+                        href="https://github.com/yourusername/students-project-management" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="btn btn-warning mt-2"
+                      >
+                        View Project
+                      </a>
                     </div>
                   </div>
                 </Card>
@@ -251,8 +312,16 @@ const Home = () => {
                     <div className="overlay">
                       <Card.Title className="text-white">School Website</Card.Title>
                       <Card.Text className="text-white">
-                        A high school website.
+                        A school website.
                       </Card.Text>
+                      <a 
+                        href="https://github.com/yourusername/students-project-management" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="btn btn-warning mt-2"
+                      >
+                        View Project
+                      </a>
                     </div>
                   </div>
                 </Card>
