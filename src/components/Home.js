@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import { FaFacebook,FaInstagram, FaLinkedin, FaWhatsapp,FaGithub } from "react-icons/fa";
+import AOS from 'aos'; // Import AOS
+import 'aos/dist/aos.css';
 import './Home.css'; // Import custom CSS if needed
 import Services from './Services';
 
@@ -147,7 +149,7 @@ const Home = () => {
                         Manage and track Your students final year projects from one point online
                       </Card.Text>
                       <a 
-                        href="https://github.com/yourusername/students-project-management" 
+                        href="https://github.com/Danielkioko18/SPMS" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="btn btn-warning mt-2"
@@ -168,7 +170,7 @@ const Home = () => {
                         Book and Reserve tickets for passengers online 
                       </Card.Text>
                       <a 
-                        href="https://github.com/yourusername/students-project-management" 
+                        href="https://github.com/Danielkioko18/Booking_System" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="btn btn-warning mt-2"
@@ -189,7 +191,7 @@ const Home = () => {
                         Generate receipts using computerized ticketing system.
                       </Card.Text>
                       <a 
-                        href="https://github.com/yourusername/students-project-management" 
+                        href="https://github.com/Danielkioko18/Bus-Ticketing-System" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="btn btn-warning mt-2"
@@ -210,7 +212,7 @@ const Home = () => {
                         Track your financial budgets and spending  to help save on money.
                       </Card.Text>
                       <a 
-                        href="https://github.com/yourusername/students-project-management" 
+                        href="https://github.com/Danielkioko18/Wise-Wallet" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="btn btn-warning mt-2"
@@ -231,7 +233,7 @@ const Home = () => {
                         Manage your pharmacy's activities such as stock, invoices and supply
                       </Card.Text>
                       <a 
-                        href="https://github.com/yourusername/students-project-management" 
+                        href="https://github.com/Danielkioko18/Pharmacy-System-PHP" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="btn btn-warning mt-2"
@@ -252,7 +254,7 @@ const Home = () => {
                        Manage school work and records easily.
                       </Card.Text>
                       <a 
-                        href="https://github.com/yourusername/students-project-management" 
+                        href="https://github.com/Danielkioko18/School_System-Java" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="btn btn-warning mt-2"
@@ -273,7 +275,49 @@ const Home = () => {
                         Manage students information records and exam records.
                       </Card.Text>
                       <a 
-                        href="https://github.com/yourusername/students-project-management" 
+                        href="https://github.com/Danielkioko18/Student_Management_System-Java-Swing" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="btn btn-warning mt-2"
+                      >
+                        View Project
+                      </a>
+                    </div>
+                  </div>
+                </Card>
+              </Col>
+              <Col md={4}>
+                <Card className="project-card">
+                  <div className="image-wrapper">
+                    <Card.Img variant="top" src="property.jpg" className="property-img" />
+                    <div className="overlay">
+                      <Card.Title className="text-white">Property Rental System</Card.Title>
+                      <Card.Text className="text-white">
+                        Manage rental properties through online system
+                      </Card.Text>
+                      <a 
+                        href="https://github.com/Danielkioko18/property-rental-system-in-Django" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="btn btn-warning mt-2"
+                      >
+                        View Project
+                      </a>
+                    </div>
+                  </div>
+                </Card>
+              </Col>
+              <Col md={4}>
+                <Card className="project-card">
+                  <div className="image-wrapper">
+                    <Card.Img variant="top" src="portfolio.jpg" className="portfolio-img" />
+                    <div className="overlay">
+                      <Card.Title className="text-white">Portfolio Website</Card.Title>
+                      <Card.Text className="text-white">
+                        Information about my career on a portfolio website
+                      </Card.Text>
+                      <a 
+                        href="https://github.com/Danielkioko18/Portfolio-app-using-ReactJS" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="btn btn-warning mt-2"
@@ -294,7 +338,7 @@ const Home = () => {
                         Simple Python GUI App
                       </Card.Text>
                       <a 
-                        href="https://github.com/yourusername/students-project-management" 
+                        href="https://github.com/Danielkioko18/Python-App" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="btn btn-warning mt-2"
@@ -315,7 +359,7 @@ const Home = () => {
                         A school website.
                       </Card.Text>
                       <a 
-                        href="https://github.com/yourusername/students-project-management" 
+                        href="https://github.com/Danielkioko18/School-Website" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="btn btn-warning mt-2"
@@ -398,5 +442,6 @@ const Home = () => {
     </div>
   );
 };
+
 
 export default Home;
