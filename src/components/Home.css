@@ -1,5 +1,6 @@
 .home {
     padding: 20px;
+    width: 100%;
   }
   
 .home img {
@@ -35,13 +36,18 @@
   z-index: 1;
 }
 
-.animated-text {
+
+/*.animated-text {
   position: relative;
   z-index: 2;
   color: white;
   font-size: 2rem;
   text-align: center;
-  animation: fadeIn 5s ease-in-out infinite alternate; /* Animation */
+  /*animation: fadeIn 5s ease-in-out infinite alternate; /* Animation */
+/*}*/
+#profile{
+  z-index: 3;
+
 }
 
 @keyframes fadeIn {

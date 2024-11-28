@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { FaPhone, FaGithub, FaEnvelope, FaTwitter } from "react-icons/fa";
 import './Footer.css'; // Import custom CSS for additional styling if needed
 
 const Footer = () => {
@@ -13,14 +14,14 @@ const Footer = () => {
           </Col>
           <Col md={4}>
             <h5><u>Contact</u> </h5>
-            <p>Email: danielkioko1844@gmail.com</p>
-            <p>Phone: +254769894714</p>
+            <p><FaEnvelope /> danielkioko1844@gmail.com</p>
+            <p><FaPhone /> +254769894714</p>
           </Col>
           <Col md={4}>
             <h5><u>Follow Me</u> </h5>
             <ul className="list-unstyled">
-              <li><a href="https://github.com/Danielkioko18" className="text-white">GitHub</a></li>
-              <li><a href="https://github.com/Danielkioko18" className="text-white">Twitter</a></li>
+              <li><a href="https://github.com/Danielkioko18" className="text-white"><FaGithub />  GitHub</a></li>
+              <li><a href="https://github.com/Danielkioko18" className="text-white"><FaTwitter />  Twitter</a></li>
             </ul>
           </Col>
         </Row>
