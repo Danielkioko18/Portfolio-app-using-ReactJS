@@ -36,10 +36,10 @@ const Services = () => {
                         <Card>
                             <Card.Body>
                                 <img src="desktop_1.jpeg" alt="service" />
-                                <Card.Title>DESKTOP APPLICATION DEVELOPEMENT</Card.Title>
+                                <Card.Title>SOFTWARE DEVELOPEMENT</Card.Title>
                                 <Card.Text>
-                                    Expert in design and developement of desktop applications using Java, Python, & C 
-                                    that are appealing and user satrisfying.
+                                    Expert in design and developement of desktop applications using Java and Python, 
+                                    that are appealing and user satisfying.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -48,9 +48,9 @@ const Services = () => {
                         <Card>
                             <Card.Body>
                                 <img src="pro_3.png" alt="service" />
-                                <Card.Title>GENERAL PROGRAM WRITING/CODING SERVICES</Card.Title>
+                                <Card.Title>PROGRAMING & CODING SERVICES</Card.Title>
                                 <Card.Text>
-                                    Proficient in writting basic and advance programs in different programming languages such as 
+                                    Proficient in writting basic and advance programs and scripts in different programming languages such as 
                                     Python, Java, Javascript, R, PHP, HTML among others.
                                 </Card.Text>
                             </Card.Body>

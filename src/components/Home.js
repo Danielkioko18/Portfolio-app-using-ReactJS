@@ -370,19 +370,19 @@ const Home = () => {
                   <h4 className='text-primary'><u>Message Me</u></h4>
                   <form ref={form} onSubmit={sendEmail}>
                     <div class="form-group mb-3">
-                      <input type="email" class="form-control" id="" placeholder="Your Email" name="from_email" />
+                      <input type="email" class="form-control" id="" placeholder="Your Email" name="from_email" required />
                     </div>
 
                     <div class="form-group mb-3">
-                      <input type="Text" class="form-control" id="" placeholder="Your Name" name="from_name" />
+                      <input type="Text" class="form-control" id="" placeholder="Your Name" name="from_name" required />
                     </div>
 
                     <div class="form-group mb-3">
-                      <input type="Subject" class="form-control" id="" placeholder="Subject" name="subject" />
+                      <input type="Subject" class="form-control" id="" placeholder="Subject" name="subject" required />
                     </div>
                     
                     <div class="form-group mb-3">
-                      <textarea class="form-control" id="Your Message" rows="3" placeholder="Your Message" name='message'></textarea>
+                      <textarea class="form-control" id="Your Message" rows="3" placeholder="Your Message" name='message' required ></textarea>
                     </div>
                     <div class="form-group">
                       <button className='btn btn-primary' type="submit">Send Message</button>
