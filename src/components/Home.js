@@ -104,7 +104,7 @@ const Home = () => {
                           <li><b className='text-success'>Frameworks:</b> Django, Flask, ReactJS</li>
                           <li><b className='text-success'>Version Control:</b> GitHub</li>
                         </ul>
-                        <a className='btn btn-success' href="Daniel Kioko CV.pdf"> Download CV</a>
+                        <a className='btn btn-success' href="Daniel Kioko CV.pdf"> View Resume</a>
 
                       </div>
                     </div>

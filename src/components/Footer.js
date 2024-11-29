@@ -10,7 +10,7 @@ const Footer = () => {
         <Row>
           <Col md={4}>
             <h5><u>About Me</u> </h5>
-            <p>A Fullstack Developer, Web Designer & Developer, with skills and experience in different programming languages and IT Technician</p>
+            <p>A Fullstack Developer, Web Designer & Developer, with skills and experience in different programming languages and IT</p>
           </Col>
           <Col md={4}>
             <h5><u>Contact</u> </h5>
@@ -21,13 +21,13 @@ const Footer = () => {
             <h5><u>Follow Me</u> </h5>
             <ul className="list-unstyled">
               <li><a href="https://github.com/Danielkioko18" className="text-white"><FaGithub />  GitHub</a></li>
-              <li><a href="https://github.com/Danielkioko18" className="text-white"><FaTwitter />  Twitter</a></li>
+              <li><a href="https://x.com/danielkioko01?t=cDsLFG96i8xaP9EIlQVYlQ&s=08" className="text-white"><FaTwitter />  Twitter</a></li>
             </ul>
           </Col>
         </Row>
         <Row>
           <Col className="text-center">
-            <p className="mb-0">&copy; {new Date().getFullYear()} All rights reserved.</p>
+            <p className="mb-0">&copy; {new Date().getFullYear()} Kioko. All rights reserved.</p>
           </Col>
         </Row>
       </Container>
