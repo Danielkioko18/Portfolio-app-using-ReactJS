@@ -1,12 +1,16 @@
-import React, { useEffect } from 'react';
+import React, { useEffect,useRef } from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import { FaFacebook,FaInstagram, FaLinkedin, FaWhatsapp,FaGithub } from "react-icons/fa";
 import AOS from 'aos'; // Import AOS
 import 'aos/dist/aos.css';// Import AOS styles
 import './Home.css'; // Import custom CSS if needed
+import emailjs from '@emailjs/browser';
 import Services from './Services';
 
 const Home = () => {
+
+  const form = useRef();
+
   // Initialize AOS when the component is mounted
   useEffect(() => {
     AOS.init({
@@ -14,6 +18,30 @@ const Home = () => {
       once: true, // Animation runs only once (on first scroll)
     });
   }, []);
+
+  const sendEmail = (e) => {
+    e.preventDefault(); // Prevent page reload on form submit
+
+    emailjs
+      .sendForm(
+        'service_j7fk2za', // Replace with your EmailJS service ID
+        'template_kujpjci', // Replace with your EmailJS template ID
+        form.current,
+        'C_ChvHnenqn69sdzC' // Replace with your EmailJS public key
+      )
+      .then(
+        (result) => {
+          alert('Message sent successfully!');
+          console.log(result.text);
+        },
+        (error) => {
+          alert('Failed to send the message. Please try again later.');
+          console.error(error.text);
+        }
+      );
+
+    e.target.reset(); // Reset the form fields after submission
+  };
 
   return (
     <div className="home">
@@ -59,51 +87,7 @@ const Home = () => {
                       <div class="col-md-6">
                           <div className="row">
                               <img src="me_1.jpeg" alt='Kioko' style={{height:'90%', width:'90%', border:'2px', borderRadius:'5px'}}/>
-
-                              {/*<p className='ml-0'><strong>Name:</strong> DANIEL KIOKO</p>
-                              <p><strong>Phone:</strong> +254769894714</p>
-                              <p><strong>Address:</strong> Nairobi, Kenya</p>
-                              <p><strong><FaEnvelope /></strong>  danielkioko1844@gmail.com</p>*/}
-                          </div>
-
-                          {/* <h4 className='text-primary'><strong><u>Skills</u></strong></h4>
-                          
-                          <div className="progress mb-3" style={{height: '25px'}}>
-                            <div class="progress-bar" role="progressbar" style={{width: '82%'}} aria-valuenow="82" aria-valuemin="0"
-                            aria-valuemax="100"><strong>Python  82%</strong></div>
-                          </div>
-
-                          <div className="progress mb-3" style={{height: '25px'}}>
-                            <div class="progress-bar" role="progressbar" style={{width: '78%'}} aria-valuenow="78" aria-valuemin="0"
-                            aria-valuemax="100"><strong>Java 78%</strong></div>
-                          </div>
-
-                          <div className="progress mb-3" style={{height: '25px'}}>
-                            <div class="progress-bar" role="progressbar" style={{width: '75%'}} aria-valuenow="75" aria-valuemin="0"
-                            aria-valuemax="100"><strong>PHP  80%</strong> </div>
-                          </div>
-
-                          <div className="progress mb-3" style={{height: '25px'}}>
-                            <div class="progress-bar" role="progressbar" style={{width: '70%'}} aria-valuenow="70" aria-valuemin="0"
-                            aria-valuemax="100"><strong>Javascript  70%</strong> </div>
-                          </div>
-
-                          <div className="progress mb-3" style={{height: '25px'}}>
-                            <div class="progress-bar" role="progressbar" style={{width: '89%'}} aria-valuenow="89" aria-valuemin="0"
-                            aria-valuemax="100"><strong>Mysql/Postgres SQL 89%</strong></div>
-                          </div>
-
-                          <div className="progress mb-3" style={{height: '25px'}}>
-                            <div class="progress-bar" role="progressbar" style={{width: '88%'}} aria-valuenow="88" aria-valuemin="0"
-                            aria-valuemax="100"><strong>CSS/Bootstrap  88%</strong> </div>
-                          </div>
-                          
-
-                          <div className="progress mb-3" style={{height: '25px'}}>
-                            <div class="progress-bar" role="progressbar" style={{width: '80%'}} aria-valuenow="80" aria-valuemin="0"
-                            aria-valuemax="100"><strong>Github  80%</strong> </div>
-                          </div> */}
-                          
+                          </div>                          
                       </div>
                       <div class="col-md-6">
                         <Card.Title className='text-primary'><strong><u>ABOUT ME</u></strong></Card.Title>
@@ -390,21 +374,21 @@ const Home = () => {
               <div className="row">
                 <div className="col-md-6 mb-4">
                   <h4 className='text-primary'><u>Message Me</u></h4>
-                  <form>
+                  <form ref={form} onSubmit={sendEmail}>
                     <div class="form-group mb-3">
-                      <input type="email" class="form-control" id="" placeholder="Your Email" />
+                      <input type="email" class="form-control" id="" placeholder="Your Email" name="from_email" />
                     </div>
 
                     <div class="form-group mb-3">
-                      <input type="Text" class="form-control" id="" placeholder="Name" />
+                      <input type="Text" class="form-control" id="" placeholder="Your Name" name="from_name" />
                     </div>
 
                     <div class="form-group mb-3">
-                      <input type="Subject" class="form-control" id="" placeholder="Subject" />
+                      <input type="Subject" class="form-control" id="" placeholder="Subject" name="subject" />
                     </div>
                     
                     <div class="form-group mb-3">
-                      <textarea class="form-control" id="Your Message" rows="3" placeholder="Your Message"></textarea>
+                      <textarea class="form-control" id="Your Message" rows="3" placeholder="Your Message" name='message'></textarea>
                     </div>
                     <div class="form-group">
                       <button className='btn btn-primary' type="submit">Send Message</button>
