@@ -68,7 +68,7 @@ const Home = () => {
                   <b className="text-warning">Web Developer, </b>
                 </h4> <br />
                 <h6>
-                  <b className="text-light">Full Stack Software and Web Developer with 4+ years experience in building softwares.</b>
+                  <b className="text-light">Full Stack Software and Web Developer with 4+ years experience.</b>
                 </h6>
               </div>
             </div>
