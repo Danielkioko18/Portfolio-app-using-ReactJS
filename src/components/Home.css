@@ -77,18 +77,21 @@
 }
 
 
-
-/*.animated-text {
-  position: relative;
-  z-index: 2;
-  color: white;
-  font-size: 2rem;
-  text-align: center;
-  /*animation: fadeIn 5s ease-in-out infinite alternate; /* Animation */
-/*}*/
 #profile{
   z-index: 3;
 
+}
+
+#tech{
+  text-align: left;
+}
+#tech li{
+  text-align: left;
+}
+
+#prof{
+  align-self: center;
+  
 }
 
 @keyframes fadeIn {

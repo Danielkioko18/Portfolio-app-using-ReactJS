@@ -85,31 +85,25 @@ const Home = () => {
                   <Card.Text>
                     <div className='row'>
                       <div class="col-md-6">
-                          <div className="row">
-                              <img src="me_1.jpeg" alt='Kioko' style={{height:'90%', width:'90%', border:'2px', borderRadius:'5px'}}/>
+                          <div className="row" >
+                              <img id='prof' src="me_1.jpeg" alt='Kioko' style={{height:'85%', width:'85%', border:'2px', borderRadius:'5px'}}/>
                           </div>                          
                       </div>
                       <div class="col-md-6">
                         <Card.Title className='text-primary'><strong><u>ABOUT ME</u></strong></Card.Title>
                         <p>
-                          I am an experienced software developer with 4 years experience in sofrtware developement. My expertise spans in a 
-                          range of programming languages, frameworks, and essential tools necessary for modern software development.
-                          My portfolio showcases a diverse range of projects, from innovative applications to dynamic and scalable web development.
+                          I am a software developer with 4 years of experience in creating innovative applications and scalable web solutions. 
+                          My expertise spans a range of programming languages, frameworks, and tools essential for modern development. 
+                          Passionate about building impactful software to solve real-world problems, I stay updated with the latest industry 
+                          trends to continuously refine my skills. My portfolio reflects a commitment to quality, creativity, and innovation. 
+                          Feel free to explore some of my projects showcased here.
                         </p>
-
-                        <p>
-                          In my professional journey, I have had the opportunity to collaborate with notable organizations such as  
-                          the County Government of Chuka. During my tenure, I played a key role in maintaining and enhancing the 
-                          Makueni County Referral Hospital where i was able to manage and interact with various hospital systems 
-                          such as the Hospitals Management System (HMS), 
-                          contributing to its efficiency and reliability in serving healthcare needs in the organization. 
-                        </p>
-
-                        <p>
-                          Additionally, I am passionate about creating impactful software that solves real-world problems. I continuously refine 
-                          my skills by staying updated with the latest industry trends and technologies. Feel free to browse through the projects 
-                          showcased on this platform, which reflect my commitment to quality and innovation.
-                        </p>
+                        <h4><b className='text-danger'><u>Tech Stack</u></b></h4>
+                        <ul id='tech'>
+                          <li><b className='text-success'>Languages:</b> Python, Java, JavaScript, PHP, HTML</li>
+                          <li><b className='text-success'>Frameworks:</b> Django, Flask, ReactJS</li>
+                          <li><b className='text-success'>Version Control:</b> GitHub</li>
+                        </ul>
                         <a className='btn btn-success' href="Daniel Kioko CV.pdf"> Download CV</a>
 
                       </div>
