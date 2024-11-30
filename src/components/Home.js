@@ -222,48 +222,6 @@ const Home = () => {
               <Col md={4}>
                 <Card className="project-card">
                   <div className="image-wrapper">
-                    <Card.Img variant="top" src="school.jpg" className="project-img" />
-                    <div className="overlay">
-                      <Card.Title className="text-white">School System</Card.Title>
-                      <Card.Text className="text-white">
-                       Manage school work and records easily.
-                      </Card.Text>
-                      <a 
-                        href="https://github.com/Danielkioko18/School_System-Java" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="btn btn-warning mt-2"
-                      >
-                        View Project
-                      </a>
-                    </div>
-                  </div>
-                </Card>
-              </Col>
-              <Col md={4}>
-                <Card className="project-card">
-                  <div className="image-wrapper">
-                    <Card.Img variant="top" src="students.jpg" className="project-img" />
-                    <div className="overlay">
-                      <Card.Title className="text-white">Student System</Card.Title>
-                      <Card.Text className="text-white">
-                        Manage students information records and exam records.
-                      </Card.Text>
-                      <a 
-                        href="https://github.com/Danielkioko18/Student_Management_System-Java-Swing" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="btn btn-warning mt-2"
-                      >
-                        View Project
-                      </a>
-                    </div>
-                  </div>
-                </Card>
-              </Col>
-              <Col md={4}>
-                <Card className="project-card">
-                  <div className="image-wrapper">
                     <Card.Img variant="top" src="property.jpg" className="property-img" />
                     <div className="overlay">
                       <Card.Title className="text-white">Property Rental System</Card.Title>
@@ -293,27 +251,6 @@ const Home = () => {
                       </Card.Text>
                       <a 
                         href="https://danielkioko.netlify.app" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="btn btn-warning mt-2"
-                      >
-                        View Project
-                      </a>
-                    </div>
-                  </div>
-                </Card>
-              </Col>
-              <Col md={4}>
-                <Card className="project-card">
-                  <div className="image-wrapper">
-                    <Card.Img variant="top" src="python app.jpg" className="project-img" />
-                    <div className="overlay">
-                      <Card.Title className="text-white">Python GUI Application</Card.Title>
-                      <Card.Text className="text-white">
-                        Simple Python GUI App
-                      </Card.Text>
-                      <a 
-                        href="https://github.com/Danielkioko18/Python-App" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="btn btn-warning mt-2"
