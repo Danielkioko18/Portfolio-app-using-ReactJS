@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { FaPhone, FaGithub, FaEnvelope, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 import './Footer.css'; // Import custom CSS for additional styling if needed
 
 const Footer = () => {
@@ -8,20 +8,12 @@ const Footer = () => {
     <footer className="footer mt-auto py-3 bg-dark text-white">
       <Container>
         <Row>
-          <Col md={4}>
-            <h5><u>About Me</u> </h5>
-            <p>A Fullstack Developer, Web Designer & Developer, with skills and experience in different programming languages and IT</p>
-          </Col>
-          <Col md={4}>
-            <h5><u>Contact</u> </h5>
-            <p><FaEnvelope /> danielkioko1844@gmail.com</p>
-            <p><FaPhone /> +254769894714</p>
-          </Col>
-          <Col md={4}>
+          <Col md={12}>
             <h5><u>Follow Me</u> </h5>
             <ul className="list-unstyled">
               <li><a href="https://github.com/Danielkioko18" className="text-white"><FaGithub />  GitHub</a></li>
               <li><a href="https://x.com/danielkioko01?t=cDsLFG96i8xaP9EIlQVYlQ&s=08" className="text-white"><FaTwitter />  Twitter</a></li>
+              <li><a href="https://www.linkedin.com/in/daniel-kioko-378099327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="text-white"><FaLinkedin />  Linkedin</a></li>
             </ul>
           </Col>
         </Row>

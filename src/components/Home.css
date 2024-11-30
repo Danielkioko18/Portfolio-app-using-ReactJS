@@ -3,11 +3,11 @@
     width: 100%;
   }
   
-.home img {
-    max-width: 100%;
-    height: auto;
-  }
-  
+#home{
+  width: 100%;
+  margin-top: 500%;
+  width: 102%;
+}  
 .home .card {
     margin-bottom: 20px;
   }
@@ -94,6 +94,11 @@
   
 }
 
+@media only screen and (max-width: 900px) {
+  #home{
+    width: 106%;
+  }
+}
 @keyframes fadeIn {
   0% {
     opacity: 0;

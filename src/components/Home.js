@@ -45,21 +45,11 @@ const Home = () => {
 
   return (
     <div className="home">
-        <Row className="animate my-2" id='home' style={{ height: '500px', backgroundColor: 'grey', width: '100%', marginTop:'1200px' }}>
+        <Row className="animate my-2" id='home' style={{ height: '510px', backgroundColor: 'grey'}}>
           <div className="col-md-12 d-flex align-items-center" id='profile'>
-            {/* Profile Image Section */}
-            <div className="row">
-              <div className="col-md me-3">
-                <img 
-                  src="me_5.jpeg" 
-                  alt="Kioko" 
-                  style={{ height: '250px', width: '250px', border: '2px solid white', borderRadius: '50%'
-                  }} 
-                />
-              </div>
 
               {/* Text Section */}
-              <div className="col-md"> 
+              <div className="col-md-12"> 
                 <h6 className="text-light"><strong>Hello, <br /><br /></strong></h6>
                 <h2 className='text-light'>I am <b className='text-danger'> Daniel</b></h2>
 
@@ -71,7 +61,6 @@ const Home = () => {
                   <b className="text-light">Full Stack Software and Web Developer with 4+ years experience.</b>
                 </h6>
               </div>
-            </div>
           </div>
         </Row>
 
@@ -303,7 +292,7 @@ const Home = () => {
                         Information about my career on a portfolio website
                       </Card.Text>
                       <a 
-                        href="https://github.com/Danielkioko18/Portfolio-app-using-ReactJS" 
+                        href="https://danielkioko.netlify.app" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="btn btn-warning mt-2"
