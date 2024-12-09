@@ -12,8 +12,8 @@ const Footer = () => {
             <h5><u>Follow Me</u> </h5>
             <ul className="list-unstyled">
               <li><a href="https://github.com/Danielkioko18" className="text-white"><FaGithub />  GitHub</a></li>
-              <li><a href="https://x.com/danielkioko01?t=cDsLFG96i8xaP9EIlQVYlQ&s=08" className="text-white"><FaTwitter />  Twitter</a></li>
-              <li><a href="https://www.linkedin.com/in/daniel-kioko-378099327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="text-white"><FaLinkedin />  Linkedin</a></li>
+              <li><a href="https://x.com/danielkioko01" className="text-white"><FaTwitter />  Twitter</a></li>
+              <li><a href="https://www.linkedin.com/in/daniel-kioko-378099327" className="text-white"><FaLinkedin />  Linkedin</a></li>
             </ul>
           </Col>
         </Row>

@@ -325,7 +325,7 @@ const Home = () => {
                       </a>
                     </div>
                     <div className="col text-danger">
-                      < a href="https://www.instagram.com/danielkioko01/profilecard/?igsh=Y3FvdWpnY3gxOTZz" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', fontSize:'40px' }}>
+                      < a href="https://www.instagram.com/danielkioko01" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', fontSize:'40px' }}>
                         <FaInstagram />
                       </a>
                     </div>
@@ -335,7 +335,7 @@ const Home = () => {
                       </a>
                     </div>
                     <div className="col text-primary">
-                      < a href="https://www.linkedin.com/in/daniel-kioko-378099327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', fontSize:'40px' }}>
+                      < a href="https://www.linkedin.com/in/daniel-kioko-37809932" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', fontSize:'40px' }}>
                         <FaLinkedin />
                       </a>
                     </div>
