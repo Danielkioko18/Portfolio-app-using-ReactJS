@@ -261,6 +261,29 @@ const Home = () => {
                   </div>
                 </Card>
               </Col>
+
+              <Col md={4}>
+                <Card className="project-card">
+                  <div className="image-wrapper">
+                    <Card.Img variant="top" src="wed 4.jpg" className="wedding-img" />
+                    <div className="overlay">
+                      <Card.Title className="text-white">Wedding Bliss Website</Card.Title>
+                      <Card.Text className="text-white">
+                        A wedding booking/planning website that allows users to book and plan for their wedding online.
+                      </Card.Text>
+                      <a 
+                        href="https://danielkioko.netlify.app" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="btn btn-warning mt-2"
+                      >
+                        View Project
+                      </a>
+                    </div>
+                  </div>
+                </Card>
+              </Col>
+
               <Col md={4}>
                 <Card className="project-card">
                   <div className="image-wrapper">
