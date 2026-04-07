@@ -283,6 +283,28 @@ const Home = () => {
                   </div>
                 </Card>
               </Col>
+
+              <Col md={4}>
+                <Card className="project-card">
+                  <div className="image-wrapper">
+                    <Card.Img variant="top" src="rental.jpg" className="rental-img" />
+                    <div className="overlay">
+                      <Card.Title className="text-white">Rental Management System</Card.Title>
+                      <Card.Text className="text-white">
+                        A rental management system for managing rental houses.
+                      </Card.Text>
+                      <a 
+                        href="https://github.com/Danielkioko18/rental-system-in-django" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="btn btn-warning mt-2"
+                      >
+                        View Project
+                      </a>
+                    </div>
+                  </div>
+                </Card>
+              </Col>
               
               <Col md={4}>
                 <Card className="project-card">
